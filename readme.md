@@ -10,7 +10,7 @@
   <h3 align="center">Meeting Calendar</h3>
 </div>
 <div align="center">
-  A website for meeting calendar that have database.
+    A comprehensive Meeting Calendar application built with PHP that has a database.
 </div>
 
 <br />
@@ -24,7 +24,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -52,22 +51,14 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-
-Description of the project in details.
+A comprehensive Meeting Calendar application built with PHP that has a database such as Mongodb and Postgre.
 
 ### Key Components
 
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Meeting Management: Create, update, delete, and view meetings with detailed information
+- Docker Containerization: Easy deployment and development environment setup
 
 ### Technology
-
-<!-- TODO: List of Technology Used -->
 
 #### Language
 
@@ -78,19 +69,17 @@ Description of the project in details.
 
 #### Framework/Library
 
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 #### Databases
 
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### Deployment
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -155,11 +144,6 @@ AD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title | Purpose            | Link                           |
+| ----- | ------------------ | ------------------------------ |
+| SQL   | Learn sql commands | https://www.w3schools.com/sql/ |
