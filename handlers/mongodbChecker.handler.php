@@ -1,6 +1,6 @@
 <?php
+require_once __DIR__ . '/../utils/envSetter.util.php';
 
-require_once __DIR__ . '/envSetter.util.php';
 try {
     $mongo = new MongoDB\Driver\Manager($mongoConfig['uri']);
 
