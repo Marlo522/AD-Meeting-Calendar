@@ -6,7 +6,7 @@
             "name": "Marlo522",
             "email": "202311932@fit.edu.ph"
         }
-    ],
+    ],    
     "scripts": {
         "start": "php -S localhost:8000 router.php"
     },
