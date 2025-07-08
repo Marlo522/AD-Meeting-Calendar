@@ -1,10 +1,4 @@
 <?php
-/**
- * Invalid Credentials Error Page
- * Displays when user enters incorrect login credentials
- */
-
-// Set up page variables
 $title = 'Invalid Credentials - Meeting Calendar';
 ?>
 <!DOCTYPE html>
@@ -19,13 +13,11 @@ $title = 'Invalid Credentials - Meeting Calendar';
 <body class="error-page">
     <div class="error-container">
         <div class="error-card">
-            <!-- Logo Section -->
             <div class="error-logo">
                 <img src="/assets/img/meeting_calendar_logo.png" alt="Meeting Calendar" class="logo-img">
                 <h1 class="app-title">Meeting Calendar</h1>
             </div>
             
-            <!-- Error Content -->
             <div class="error-content">
                 <div class="error-icon">🔒</div>
                 <h2 class="error-title">Invalid Credentials</h2>
@@ -34,7 +26,6 @@ $title = 'Invalid Credentials - Meeting Calendar';
                     Please check your credentials and try again.
                 </p>
                 
-                <!-- Action Buttons -->
                 <div class="error-actions">
                     <a href="/index.php" class="btn btn-primary">
                         <span class="btn-icon">🔄</span>
