@@ -27,11 +27,11 @@ if ($action === 'login' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     if (Auth::login($pdo, $usernameInput, $passwordInput)) {
         $user = Auth::user();
         error_log("[auth.handler.php] Login successful for user_id={$user['id']}");
-        header('Location: /pages/Login/index.php'); // Redirect to dashboard or another page
+        header('Location: /pages/Home/index.php'); // Redirect to home page
         exit;
     } else {
         error_log("[auth.handler.php] Login failed for username='{$usernameInput}'");
-        header('Location: /index.php?error=Invalid%20Credentials');
+        header('Location: /errors/invalidCredentials.error.php');
         exit;
     }
 }
